@@ -15,7 +15,7 @@ jobs:
     name: Release APK
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # JDK 17（AGP 8.x 要求，且兼容本工程）
       - name: set up JDK 17
